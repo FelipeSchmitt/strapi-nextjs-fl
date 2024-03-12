@@ -1,13 +1,11 @@
-import Image from 'next/image';
-
 const About = () => {
-    return(
+    return (
         <div>
-            <Image src="/topo.webp" alt="Imagem Topo" layout='fill' objectFit='contain' />
-            <Image src="/topo.webp" alt="Imagem Topo" layout='fill' objectFit='contain' />
-            <Image src="/topo.webp" alt="Imagem Topo" layout='fill' objectFit='contain' />
+            <img src="/topo.webp" alt="Imagem Topo" />
+            <img src="/topo.webp" alt="Imagem Topo" />
+            <img src="/topo.webp" alt="Imagem Topo" />
         </div>
-    )
+    );
 }
 
 export default About;
